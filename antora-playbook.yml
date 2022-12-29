@@ -1,0 +1,24 @@
+site:
+  title: Ext-RuboCop Docs
+  start_page: workitcop::index.adoc
+content:
+  sources:
+    - url: https://github.com/ydah/rubocop-committee.git
+      branches: ["main"]
+      tags: []
+      start_path: docs
+asciidoc:
+  attributes:
+    experimental: ""
+    idprefix: ""
+    idseparator: "-"
+    linkattrs: ""
+    toc: ~
+    page-pagination: ""
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./node_modules/antora-lunr/supplemental_ui
+output:
+  dir: ./docs

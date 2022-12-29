@@ -1,0 +1,16 @@
+{
+  "name": "rubocop.docs",
+  "version": "1.0.0",
+  "description": "RuboCop extension documentation site managed by ydah",
+  "main": "index.js",
+  "repository": "git@github.com:ydah/rubocop.docs.git",
+  "author": "ydah",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@antora/cli": "^3.1.2",
+    "@antora/site-generator-default": "^3.1.2",
+    "antora-site-generator-lunr": "^0.6.1",
+    "lunr-languages": "^1.10.0"
+  }
+}

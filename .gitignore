@@ -1,0 +1,12 @@
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Node.js, npm
+node_modules/
+npm-debug.log
+
+# Antora
+build/
